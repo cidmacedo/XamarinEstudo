@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{494FB23B-1281-441C-960B-106AB8D20185}</ProjectGuid>
+    <ProjectGuid>{B6D92077-BC0B-412E-BDB0-FEC8A2027251}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>App02_Tarefas.iOS</RootNamespace>
+    <RootNamespace>App1_CELL.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>App02_Tarefas.iOS</AssemblyName>
+    <AssemblyName>App1_CELL.iOS</AssemblyName>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -148,37 +148,13 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1029999" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\App02_Tarefas\App02_Tarefas.csproj">
-      <Project>{7FC68E38-A7FB-4EBD-8B59-E06F9B065E94}</Project>
-      <Name>App02_Tarefas</Name>
+    <ProjectReference Include="..\App1_CELL\App1_CELL.csproj">
+      <Project>{25DB4145-10ED-4EB1-9BAC-207385176CFE}</Project>
+      <Name>App1_CELL</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\AddBotao.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\CheckOff.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\CheckOn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Delete.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\I1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\I2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\I3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\I4.png" />
   </ItemGroup>
 </Project>
