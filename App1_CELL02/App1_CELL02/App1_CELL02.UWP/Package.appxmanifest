@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="4613deef-0751-4a09-8018-62183952ba10"
-    Publisher="CN=c2da09a4-aaf7-422f-82e7-77aa2645570b"
+    Name="3be5a483-e6a8-4ca9-b7a2-e8cba18454de"
+    Publisher="CN=b5dc2c3f-3c7a-4214-bb28-457e155ef646"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>App1_CELL.UWP</DisplayName>
-    <PublisherDisplayName>c2da09a4-aaf7-422f-82e7-77aa2645570b</PublisherDisplayName>
+    <DisplayName>App1_CELL02.UWP</DisplayName>
+    <PublisherDisplayName>b5dc2c3f-3c7a-4214-bb28-457e155ef646</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="App1_CELL.UWP.App">
+      EntryPoint="App1_CELL02.UWP.App">
       <uap:VisualElements
-        DisplayName="App1_CELL.UWP"
+        DisplayName="App1_CELL02.UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="App1_CELL.UWP"
+        Description="App1_CELL02.UWP"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>

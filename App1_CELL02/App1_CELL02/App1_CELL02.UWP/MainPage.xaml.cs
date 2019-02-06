@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace App1_CELL.UWP
+namespace App1_CELL02.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace App1_CELL.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new App1_CELL.App());
+            LoadApplication(new App1_CELL02.App());
         }
     }
 }
