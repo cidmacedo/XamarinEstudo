@@ -53,5 +53,11 @@ namespace App1_CELL02.Menu
             Detail = new NavigationPage(new Pagina.ListViewPage());
             IsPresented = false;
         }
+
+        private void Button_Clicked_6(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.ListViewButtonPage());
+            IsPresented = false;
+        }
     }
 }
