@@ -1,16 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1_CELL02.Pagina.ImageCellPage">
-
+             x:Class="ListaBrasil.EstadosPage">
     <ContentPage.Content>
-        <ListView x:Name="ListaFuncionario" HasUnevenRows="True">
+        <ListView x:Name="ListaEstados" ItemSelected="ListaEstados_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell Text="{Binding Nome}" Detail="{Binding Cargo}" ImageSource="{Binding Foto}" />
+                    <TextCell Text="{Binding nome}" />
                 </DataTemplate>
             </ListView.ItemTemplate>
-
         </ListView>
     </ContentPage.Content>
 </ContentPage>
