@@ -31,5 +31,6 @@ namespace ListaBrasil
             ListaFiltrada = ListaFiltrada.OrderBy(x => x.nome).ToList<Municipio>();
             ListaMunicipios.ItemsSource = ListaFiltrada;
         }
+                
     }
 }
