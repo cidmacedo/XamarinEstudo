@@ -9,6 +9,8 @@
                 <Button Text="Implicit Style" Clicked="Button_Clicked" />
                 <Button Text="Explicit Style" Clicked="Button_Clicked_1" />
                 <Button Text="Global Style" Clicked="Button_Clicked_2" />
+                <Button Text="Herança Style" Clicked="Button_Clicked_3" />
+                <Button Text="Dynamic Style" Clicked="Button_Clicked_4" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

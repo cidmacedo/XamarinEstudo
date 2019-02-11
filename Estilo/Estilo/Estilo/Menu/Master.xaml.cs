@@ -27,15 +27,24 @@ namespace Estilo.Menu
         {
             Detail = new NavigationPage(new Pagina.ExplicitStylePage());
             IsPresented = false;
-
         }
 
         private void Button_Clicked_2(object sender, EventArgs e)
         {
             Detail = new NavigationPage(new Pagina.GlobalStylePage());
             IsPresented = false;
+        }
 
+        private void Button_Clicked_3(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.HerancaStylePage());
+            IsPresented = false;
+        }
 
+        private void Button_Clicked_4(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.DynamicStylePage());
+            IsPresented = false;
         }
     }
 }
